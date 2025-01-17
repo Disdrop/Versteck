@@ -1,7 +1,7 @@
 {
   "name": "umaru-chan",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ayumi is a Discord bot written in TypeScript with a module-driven framework that allows developers to quickly add modules, commands, events, functions, and messages.",
   "main": "bot.js",
   "type": "module",
   "scripts": {

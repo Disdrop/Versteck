@@ -1,5 +1,7 @@
 # Ayumi Bot
 
+**Ayumi** is a Discord bot written in TypeScript with a module-driven framework that allows developers to quickly add modules, commands, events, functions, and messages.
+
 ## Usage
 
 1. Install [Node.js](https://nodejs.org/en/download) and [Git](https://git-scm.com/downloads) on the system where the bot will run.
