@@ -91,20 +91,6 @@ export async function createEmbed(embed: APIEmbed): Promise<APIEmbed> {
 
 type Exact<T, U extends T> = T extends U ? (U extends T ? U : never) : never;
 
-// Version 1
-/*export async function buildEmbed<Fn extends (...args: unknown[]) => APIEmbed>(
-  fn: Fn
-): Promise<Fn> {
-  return fn;
-}*/
-
-// VErsion 2
-/*export async function buildEmbed<Fn extends (...args: any[]) => APIEmbed[]>(
-  fn: Fn & ((...args: Parameters<Fn>) => Exact<APIEmbed[], ReturnType<Fn>>)
-): Promise<Fn> {
-  return fn;
-}*/
-
 export async function buildEmbed<
   Fn extends (...args: any[]) => Promise<APIEmbed[]>
 >(

@@ -42,33 +42,3 @@
    ```
    npm run start
    ```
-
-## Checklist
-
-- **General**
-  - [ ] Research Config implementation
-  - [ ] createFunction Muss noch getestet werden
-  - [ ] subcommand Type & createSubcommand Funktion & Groups
-  - [ ] Research Bot Message Interface framework
-- **Database**
-  - [ ] Prisma schema
-  - [ ] Prisma integration
-  - [ ] Load start data
-- **Modules**
-  - **General**
-    - Commands
-      - [ ] help
-      - [ ] ping
-      - [ ] reload
-      - [ ] config module anable
-      - [ ] config module disable {moduleName}
-      - [ ] info server
-      - [ ] info user {user?}
-    - **Events**
-  - **Welcome**
-    - **Commands**
-      - [ ] welcomeChannel set {channel}
-      - [ ] JoinChannel set {channel}
-    - **Events**
-      - [ ] MemberJoin
-      - [ ] MemberLeave
