@@ -1,0 +1,22 @@
+{
+  "name": "umaru-chan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node ./dist/bot.js"
+  },
+  "author": "exdna",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.6",
+    "prisma": "^6.2.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.3"
+  }
+}
