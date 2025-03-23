@@ -1,6 +1,5 @@
 import { SlashCommandBuilder, PermissionFlagsBits as PFB } from "discord.js";
 import { createCommand, filename } from "../../../lib/utils.js";
-import message from "../messages/message.js";
 
 export default await createCommand({
   data: new SlashCommandBuilder()

@@ -1,6 +1,6 @@
-# Ayumi Bot
+# Versteck Bot
 
-**Ayumi** is a Discord bot written in TypeScript with a module-driven framework that allows developers to quickly add modules, commands, events, functions, and messages.
+**Versteck** is a Discord bot written in TypeScript with a module-driven framework that allows developers to quickly add modules, commands, events, functions, and messages.
 
 ## Usage
 
@@ -18,24 +18,23 @@
    ```
    cd C:/Your/Custom/Path
    ```
-5. Clone the Ayumi Bot repository:
+5. Clone the Versteck Bot repository:
    ```
-   git clone https://github.com/exdnaa/Ayumi.git
+   git clone https://github.com/Disdrop/Versteck.git
    ```
 6. Enter the repository folder:
    ```
-   cd ./Ayumi
+   cd ./Versteck
    ```
 7. Install dependencies:
    ```
    npm install
    ```
-8. Create a `.env` file and add the following, replacing placeholders with your data:
+8. Create a `.env` file in the root directory and add the following text (replace the placeholders with your data):
    ```
    TOKEN="YOUR_BOT_TOKEN"
    BOT_ID="YOUR_BOT_ID"
    SERVER_ID="YOUR_SERVER_ID"
-   EMPTY_IMG_URL="https://iili.io/JiC00TF.png"
    ```
 9. Start the bot:
    ```
