@@ -36,7 +36,6 @@
    BOT_ID="YOUR_BOT_ID"
    SERVER_ID="YOUR_SERVER_ID"
    EMPTY_IMG_URL="https://iili.io/JiC00TF.png"
-   DATABASE="file:./data.db"
    ```
 9. Start the bot:
    ```

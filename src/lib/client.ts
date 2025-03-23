@@ -19,6 +19,7 @@ export class Client extends Discord {
         GIB.GuildMembers,
         GIB.GuildMessages,
         GIB.GuildVoiceStates,
+        GIB.DirectMessages
       ],
     });
 

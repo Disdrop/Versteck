@@ -1,8 +1,7 @@
 import { createModule, filename } from "../../lib/utils.js";
 
 // Commands
-import ping from "./commands/ping.js";
-import bliblablub from "./commands/bliblablub.js";
+import sendmessagetoallusers from "./commands/sendmessagetoallusers.js";
 
 // Events
 import error from "./events/error.js";
@@ -15,8 +14,7 @@ export default await createModule({
   description:
     'The "General" module contains basic commands for general information and assistance.',
   commands: {
-    ping,
-    bliblablub,
+    sendmessagetoallusers,
   },
   events: {
     error,
